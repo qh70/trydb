@@ -11,11 +11,11 @@ function App() {
         console.log(data);
     }).catch(err=>{console.error(err)})
 
-    // fetch("http://44.212.9.178:3000/Joe/")
-    // .then(res => res.json())
-    // .then(data => {
-    //     console.log(data);
-    // }).catch(err=>{console.error(err)})
+    fetch("http://44.212.9.178:3000/Joe/")
+    .then(res => res.json())
+    .then(data => {
+        console.log(data);
+    }).catch(err=>{console.error(err)})
 }, [])
 
   return (
